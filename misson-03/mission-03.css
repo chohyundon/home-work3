@@ -119,7 +119,6 @@
 
 @media (max-width: 768px) {
   .netflix {
-    height: 100vh;
     width: 100%;
   }
 
@@ -177,5 +176,77 @@
     border: none;
     width: 3.75em;
     height: 1.875em;
+  }
+
+  .netflix-main {
+    height: 50vh;
+    border-bottom: 1px solid #919191;
+  }
+
+  .footer {
+    color: #c8c8c8;
+  }
+
+  .netflix-footer-container {
+    margin: 0 auto;
+    padding: 2.5em 1.25em;
+  }
+
+  .netflix-footer-question {
+    font-size: 1.25em;
+  }
+
+  .text {
+    display: block;
+    position: relative;
+  }
+
+  .bottom-netflix-lang-container {
+    display: inline-flex;
+    border: 1px solid #757575;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5em;
+    padding: 0.75em 0.625em;
+    margin-top: 8%;
+  }
+
+  .netflix-title {
+    font-size: 1.375em;
+    color: #acacac;
+  }
+
+  .netflix-content {
+    width: 580px;
+    margin-top: 12%;
+    font-size: 1em;
+    line-height: 1.5;
+    display: flex;
+    flex-flow: column;
+    color: #919191;
+  }
+
+  .netflix-footer-nav {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: auto auto;
+    padding: 0;
+    padding-top: 3%;
+  }
+
+  .netflix-footer-nav-container {
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+  .netflix-footer-nav li {
+    width: 205px;
+    height: 19px;
+    flex-shrink: 0;
+    padding: 0;
+    display: flex;
+    line-height: 1.2;
+    font-size: 1em;
+    color: #acacac;
   }
 }
